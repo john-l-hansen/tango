@@ -1,0 +1,323 @@
+## Two-level Search 1
+```js filename="Two-level Search 1" {} copy
+<div style="padding: 1rem;">
+    <div class="flex items-center justify-between gap-4 rounded-full border border-gray-200 bg-white px-2 py-2 pr-1"
+      style="height: 40px; width: 800px;">
+      <div class="flex items-center space-x-2">
+        <input class="m-0 text-gray-500 pl-1.5" placeholder="Search"></input>
+      </div>
+      <button class=" flex justify-center items-center rounded-full font-medium leading-5 text-sm text-white bg-gray-500 hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300    w-8 h-8">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+  </div>
+  ```
+
+## Two-level Search 2
+```js filename="Two-level Search 2" {} copy
+<div style="padding: 1rem;">
+    <div class="flex items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-2 py-4"
+      style="height: 40px; width: 800px;">
+      <div class="flex items-center space-x-2">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level one" style="width: 116px;"></input>
+        <span class="text-gray-200">
+          |
+        </span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105754)">
+            <path
+              d="M14 11.6667V7.66667L12 5.66667L10 7.66667V9H6V18.3333H18V11.6667H14ZM8.66667 17H7.33333V15.6667H8.66667V17ZM8.66667 14.3333H7.33333V13H8.66667V14.3333ZM8.66667 11.6667H7.33333V10.3333H8.66667V11.6667ZM12.6667 17H11.3333V15.6667H12.6667V17ZM12.6667 14.3333H11.3333V13H12.6667V14.3333ZM12.6667 11.6667H11.3333V10.3333H12.6667V11.6667ZM12.6667 9H11.3333V7.66667H12.6667V9ZM16.6667 17H15.3333V15.6667H16.6667V17ZM16.6667 14.3333H15.3333V13H16.6667V14.3333Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105754">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level two"></input>
+      </div>
+    </div>
+  </div>
+  ```
+
+## Two-level search button 3
+```js filename="Two-level search button 3" {} copy
+<div style="padding: 1rem;">
+    <div class="flex items-center h-10 justify-between gap-4 rounded-xl border border-gray-200 bg-white px-1 py-4" style="width: 800px;">
+      <div class="flex items-center space-x-2 pl-1">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level one" style="width: 116px;"></input>
+        <span class="text-gray-200">|</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105754)">
+            <path
+              d="M14 11.6667V7.66667L12 5.66667L10 7.66667V9H6V18.3333H18V11.6667H14ZM8.66667 17H7.33333V15.6667H8.66667V17ZM8.66667 14.3333H7.33333V13H8.66667V14.3333ZM8.66667 11.6667H7.33333V10.3333H8.66667V11.6667ZM12.6667 17H11.3333V15.6667H12.6667V17ZM12.6667 14.3333H11.3333V13H12.6667V14.3333ZM12.6667 11.6667H11.3333V10.3333H12.6667V11.6667ZM12.6667 9H11.3333V7.66667H12.6667V9ZM16.6667 17H15.3333V15.6667H16.6667V17ZM16.6667 14.3333H15.3333V13H16.6667V14.3333Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105754">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level two"></input>
+      </div>
+      <button
+        class="py-1.5 px-2.5 flex justify-center items-center rounded-lg font-medium leading-5 text-sm text-white bg-gray-500 hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300   ">Search</button>
+    </div>
+  </div>
+  ```
+
+## Two-level Search 4
+```js filename="Two-level search button 4" {} copy
+<div style="padding: 1rem;">
+    <div class="flex items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-2 py-2 pr-0"
+      style="height: 40px; width: 800px;">
+      <div class="flex items-center space-x-2 pl-1">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level one" style="width: 116px;"></input>
+        <span class="text-gray-200">|</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105754)">
+            <path
+              d="M14 11.6667V7.66667L12 5.66667L10 7.66667V9H6V18.3333H18V11.6667H14ZM8.66667 17H7.33333V15.6667H8.66667V17ZM8.66667 14.3333H7.33333V13H8.66667V14.3333ZM8.66667 11.6667H7.33333V10.3333H8.66667V11.6667ZM12.6667 17H11.3333V15.6667H12.6667V17ZM12.6667 14.3333H11.3333V13H12.6667V14.3333ZM12.6667 11.6667H11.3333V10.3333H12.6667V11.6667ZM12.6667 9H11.3333V7.66667H12.6667V9ZM16.6667 17H15.3333V15.6667H16.6667V17ZM16.6667 14.3333H15.3333V13H16.6667V14.3333Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105754">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level two"></input>
+      </div>
+      <button
+        class="py-1.5 px-2.5  flex justify-center items-center rounded-lg rounded-l-none font-medium leading-5 text-sm text-white bg-gray-500 hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300 font-lato"
+        style="height: 40px;">Search</button>
+    </div>
+  </div>
+  ```
+
+## Two-level Search 5
+```js filename="Two-level search button 5" {} copy
+<div style="padding: 1rem;">
+
+    <div class="flex items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-2 py-2 pr-0"
+      style="height: 40px; width: 800px;">
+
+      <div class="flex items-center space-x-2 pl-1">
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <input class="m-0 text-gray-500" placeholder="Search level one" style="width: 116px;"></input>
+        <span class="text-gray-200">
+          |
+        </span>
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105754)">
+            <path
+              d="M14 11.6667V7.66667L12 5.66667L10 7.66667V9H6V18.3333H18V11.6667H14ZM8.66667 17H7.33333V15.6667H8.66667V17ZM8.66667 14.3333H7.33333V13H8.66667V14.3333ZM8.66667 11.6667H7.33333V10.3333H8.66667V11.6667ZM12.6667 17H11.3333V15.6667H12.6667V17ZM12.6667 14.3333H11.3333V13H12.6667V14.3333ZM12.6667 11.6667H11.3333V10.3333H12.6667V11.6667ZM12.6667 9H11.3333V7.66667H12.6667V9ZM16.6667 17H15.3333V15.6667H16.6667V17ZM16.6667 14.3333H15.3333V13H16.6667V14.3333Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105754">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level two"></input>
+      </div>
+
+      <button
+        class="py-1.5 px-2.5  flex justify-center items-center rounded-lg rounded-l-none font-medium leading-5 text-sm text-white bg-gray-500 hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300 font-lato"
+        style="height: 40px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105798)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5767 14.8367 10.5033C14.8367 8.11 12.8967 6.17 10.5033 6.17C8.11 6.17 6.17 8.11 6.17 10.5033C6.17 12.8967 8.11 14.8367 10.5033 14.8367C11.5767 14.8367 12.5633 14.4433 13.3233 13.79L13.5033 13.9767V14.5033L16.8367 17.83L17.83 16.8367L14.5033 13.5033ZM10.5033 13.5033C8.84333 13.5033 7.50333 12.1633 7.50333 10.5033C7.50333 8.84333 8.84333 7.50333 10.5033 7.50333C12.1633 7.50333 13.5033 8.84333 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105798">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
+
+    </div>
+  </div>
+  ```
+
+## Two-level Search 6
+```js filename="Two-level search button 6" {} copy
+<div style="padding: 1rem;">
+
+    <div class="flex items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-2 py-2 pr-1" style="height: 40px; width: 800px;">
+
+      <div class="flex items-center space-x-2 pl-1">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level one" style="width: 116px;"></input>
+        <span class="text-gray-200">|</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105754)">
+            <path
+              d="M14 11.6667V7.66667L12 5.66667L10 7.66667V9H6V18.3333H18V11.6667H14ZM8.66667 17H7.33333V15.6667H8.66667V17ZM8.66667 14.3333H7.33333V13H8.66667V14.3333ZM8.66667 11.6667H7.33333V10.3333H8.66667V11.6667ZM12.6667 17H11.3333V15.6667H12.6667V17ZM12.6667 14.3333H11.3333V13H12.6667V14.3333ZM12.6667 11.6667H11.3333V10.3333H12.6667V11.6667ZM12.6667 9H11.3333V7.66667H12.6667V9ZM16.6667 17H15.3333V15.6667H16.6667V17ZM16.6667 14.3333H15.3333V13H16.6667V14.3333Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105754">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <input class="m-0 text-gray-500" placeholder="Search level two"></input>
+      </div>
+
+      <button
+        class="py-1 px-1 flex justify-center items-center rounded-lg font-medium leading-5 text-sm text-white bg-gray-500 hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300">
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+  </div>
+  ```
+
+  ## Two-level Search 7
+```js filename="Two-level search button 7" {} copy
+<div style="padding: 1rem;">
+
+    <div class="flex items-center justify-between gap-4 rounded-full border border-gray-200 bg-white px-2 py-2 pr-1" style="height: 40px; width: 800px;">
+
+      <div class="flex items-center space-x-2 pl-2">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <input class="m-0 text-gray-500" placeholder="Search level one" style="width: 116px;"></input>
+        <span class="text-gray-200">|</span>
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105754)">
+            <path
+              d="M14 11.6667V7.66667L12 5.66667L10 7.66667V9H6V18.3333H18V11.6667H14ZM8.66667 17H7.33333V15.6667H8.66667V17ZM8.66667 14.3333H7.33333V13H8.66667V14.3333ZM8.66667 11.6667H7.33333V10.3333H8.66667V11.6667ZM12.6667 17H11.3333V15.6667H12.6667V17ZM12.6667 14.3333H11.3333V13H12.6667V14.3333ZM12.6667 11.6667H11.3333V10.3333H12.6667V11.6667ZM12.6667 9H11.3333V7.66667H12.6667V9ZM16.6667 17H15.3333V15.6667H16.6667V17ZM16.6667 14.3333H15.3333V13H16.6667V14.3333Z"
+              fill="#88898B" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105754">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <input class="m-0 text-gray-500" placeholder="Search level two"></input>
+
+      </div>
+
+      <button
+        class=" flex justify-center items-center rounded-full font-medium leading-5 text-sm text-white bg-gray-500 hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300 w-8 h-8">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_247_105704)">
+            <path
+              d="M14.5033 13.5033H13.9767L13.79 13.3233C14.4433 12.5633 14.8367 11.5766 14.8367 10.5033C14.8367 8.10998 12.8967 6.16998 10.5033 6.16998C8.11001 6.16998 6.17001 8.10998 6.17001 10.5033C6.17001 12.8966 8.11001 14.8366 10.5033 14.8366C11.5767 14.8366 12.5633 14.4433 13.3233 13.79L13.5033 13.9766V14.5033L16.8367 17.83L17.83 16.8366L14.5033 13.5033ZM10.5033 13.5033C8.84335 13.5033 7.50335 12.1633 7.50335 10.5033C7.50335 8.84332 8.84335 7.50332 10.5033 7.50332C12.1633 7.50332 13.5033 8.84332 13.5033 10.5033C13.5033 12.1633 12.1633 13.5033 10.5033 13.5033Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_247_105704">
+              <rect width="24" height="24" rx="8" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+  </div>
+  ```
